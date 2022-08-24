@@ -17,7 +17,7 @@
 
 
     <title>分类: 第一季后会无期 | 橙猫涉影</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -40,10 +40,12 @@
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">橙猫涉影</span>
+                    <div>
+                        
+                        <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                        
+                        <span class="logo-span">橙猫涉影</span>
+                    </div>
                 </a>
             </div>
             
@@ -75,33 +77,11 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/archives" class="waves-effect waves-light">
       
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      <i class="fas fa-grip-lines-vertical" style="zoom: 0.6;"></i>
       
-      <span>归档</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/about" class="waves-effect waves-light">
-      
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
-      
-      <span>关于</span>
+      <span>时间线</span>
     </a>
     
   </li>
@@ -121,9 +101,20 @@
     
     <a href="/friends" class="waves-effect waves-light">
       
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      <i class="fas fa-link" style="zoom: 0.6;"></i>
       
-      <span>友情链接</span>
+      <span>平台链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
     </a>
     
   </li>
@@ -178,33 +169,11 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			分类
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/archives" class="waves-effect waves-light">
 			
-			    <i class="fa-fw fas fa-archive"></i>
+			    <i class="fa-fw fas fa-grip-lines-vertical"></i>
 			
-			归档
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/about" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-user-circle"></i>
-			
-			关于
+			时间线
 		</a>
           
         </li>
@@ -224,20 +193,24 @@
 	  
 		<a href="/friends" class="waves-effect waves-light">
 			
-			    <i class="fa-fw fas fa-address-book"></i>
+			    <i class="fa-fw fas fa-link"></i>
 			
-			友情链接
+			平台链接
 		</a>
           
         </li>
         
-        
-        <li><div class="divider"></div></li>
-        <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
-                <i class="fab fa-github-square fa-fw"></i>Fork Me
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
         </li>
+        
         
     </ul>
 </div>
@@ -245,62 +218,6 @@
 
         </div>
 
-        
-            <style>
-    .nav-transparent .github-corner {
-        display: none !important;
-    }
-
-    .github-corner {
-        position: absolute;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        border: 0;
-        transform: scale(1.1);
-    }
-
-    .github-corner svg {
-        color: #0f9d58;
-        fill: #fff;
-        height: 64px;
-        width: 64px;
-    }
-
-    .github-corner:hover .octo-arm {
-        animation: a 0.56s ease-in-out;
-    }
-
-    .github-corner .octo-arm {
-        animation: none;
-    }
-
-    @keyframes a {
-        0%,
-        to {
-            transform: rotate(0);
-        }
-        20%,
-        60% {
-            transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-            transform: rotate(10deg);
-        }
-    }
-</style>
-
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="Fork Me" data-position="left" data-delay="50">
-    <svg viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor" class="octo-body"></path>
-    </svg>
-</a>
         
     </nav>
 
@@ -323,7 +240,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        strings: ['我审美很烂，但我知道你很漂亮','我又相信爱情了'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -396,11 +313,7 @@
                         <div class="summary block-with-text">
                             
                                 
-一次铁路人像的拍摄，结束这一季器材：A73+FE55BGM：纵贯线
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20,minZoo
+一次铁路人像的拍摄，结束这一季器材：A73+FE55BGM：纵贯...
                             
                         </div>
                         <div class="publish-info">
@@ -447,18 +360,14 @@
                             
                             <img src="http://i2.hdslb.com/bfs/archive/a659975f836e1fc0fe0d8a803827bd7411fae144.jpg" class="responsive-img" alt="【橙猫涉影】撩妹方法对了，每天都像过七夕！">
                             
-                            <span class="card-title">【橙猫涉影】撩妹方法对了，每天都像过七夕！</span>
+                            <span class="card-title">【橙猫涉影】撩妹方法对了，每天都像过七夕</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-阿强拍他女朋友阿珍的一期。为什么脱单这么难？是因为你没看这份七夕攻略。器材：索尼a73+fe55
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{ma
+阿强拍他女朋友阿珍的一期。为什么脱单这么难？是因为你没看这份七夕...
                             
                         </div>
                         <div class="publish-info">
@@ -505,18 +414,14 @@
                             
                             <img src="http://i2.hdslb.com/bfs/archive/50256c67f3eb05555c0ace3c0ddd6d5cf7077ce2.jpg" class="responsive-img" alt="【橙猫涉影】进阶级摄影人生！佳能200D+适马35art漫展拍摄">
                             
-                            <span class="card-title">【橙猫涉影】进阶级摄影人生！佳能200D+适马35art漫展拍摄</span>
+                            <span class="card-title">【橙猫涉影】进阶级摄影人生！佳能200D</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马35art一次实拍，希望对新手有帮助。
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{
+yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马3...
                             
                         </div>
                         <div class="publish-info">
@@ -563,18 +468,14 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马35art
                             
                             <img src="http://i1.hdslb.com/bfs/archive/58f82f573437f4adc18b1e4b4a9bfa4a52780c3a.jpg" class="responsive-img" alt="【橙猫涉影】入门级摄影体验！佳能200D+适马17-50+小痰盂">
                             
-                            <span class="card-title">【橙猫涉影】入门级摄影体验！佳能200D+适马17-50+小痰盂</span>
+                            <span class="card-title">【橙猫涉影】入门级摄影体验！佳能200D</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50&#x2F;2.8+小痰盂的一次实拍，希望对新手有帮助。
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe
+yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马1...
                             
                         </div>
                         <div class="publish-info">
@@ -619,22 +520,16 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                     <a href="/posts/55378/">
                         <div class="card-image tag-image">
                             
+                            <img src="http://i0.hdslb.com/bfs/archive/f0d84d161add21bab89242588a17761fe0d00b5d.jpg" class="responsive-img" alt="【橙猫后期】你还要不要脸？PS人脸精修教程-双曲线篇">
                             
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="【橙猫后期】你还要不要脸？PS人脸精修教程-双曲线篇">
-                            
-                            <span class="card-title">【橙猫后期】你还要不要脸？PS人脸精修教程-双曲线篇</span>
+                            <span class="card-title">【橙猫后期】你还要不要脸？PS人脸精修教</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-这期带来人像摄影后期的重要一课，人脸精修的PS教程。第一次出这类教程，肯定有很多不足，希望大家多多指正，助我完善，也希望能对大家有帮助。
-
-视频 
-
-
-文案各位爱学习的小伙伴们大家好，我是橙猫今天的后期是教大家如何精修人脸人像摄影，最基本
+这期带来人像摄影后期的重要一课，人脸精修的PS教程。第一次出这类...
                             
                         </div>
                         <div class="publish-info">
@@ -677,18 +572,14 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                             
                             <img src="http://i2.hdslb.com/bfs/archive/b8c8fbe18eb167bae43220ce7f48ba394a2df838.jpg" class="responsive-img" alt="【橙猫涉影】失恋怎么办，我也很绝望！索尼a73+fe55+魔爪aircross">
                             
-                            <span class="card-title">【橙猫涉影】失恋怎么办，我也很绝望！索尼a73+fe55+魔爪aircross</span>
+                            <span class="card-title">【橙猫涉影】失恋怎么办，我也很绝望！索尼</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-你喜欢大海，我爱过你吗？大海是谁？他还顺走了我的矮丑，只剩浪。。。和穷小姐姐的失恋小视频，演绎得太强了，拍得我都快哭了。嘤嘤嘤器材：A73+FE55+魔爪aircross
-
-视频 
-
-拍摄地点var normalm=L.tileLayer
+你喜欢大海，我爱过你吗？大海是谁？他还顺走了我的矮丑，只剩浪。。...
                             
                         </div>
                         <div class="publish-info">
@@ -746,11 +637,7 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                         <div class="summary block-with-text">
                             
                                 
-有宠物的一期，人猫情未了。使用A73+FE28+FE55拍摄的一期猫房主题花絮。
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20
+有宠物的一期，人猫情未了。使用A73+FE28+FE55拍摄的一...
                             
                         </div>
                         <div class="publish-info">
@@ -801,18 +688,14 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                             
                             <img src="http://i2.hdslb.com/bfs/archive/f18c25dfce05c3abbf67a4cd5f39fd3fcf8c16d0.jpg" class="responsive-img" alt="【橙猫涉影】如何拍摄漫展？分享一些经验心得">
                             
-                            <span class="card-title">【橙猫涉影】如何拍摄漫展？分享一些经验心得</span>
+                            <span class="card-title">【橙猫涉影】如何拍摄漫展？分享一些经验心</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-第19th萤火虫的漫展实拍视频。器材：索尼A73+FE55&#x2F;1.8
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20,m
+第19th萤火虫的漫展实拍视频。器材：索尼A73+FE55&#x...
                             
                         </div>
                         <div class="publish-info">
@@ -859,18 +742,14 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                             
                             <img src="http://i0.hdslb.com/bfs/archive/47a7311d00785081f97f5f853a4eb616c1c4f5d2.jpg" class="responsive-img" alt="【橙猫涉影】女生宿舍毕业照，顺带聊聊大学的我！ -索尼A73+FE28/2+FE55/1.8 摄影">
                             
-                            <span class="card-title">【橙猫涉影】女生宿舍毕业照，顺带聊聊大学的我！ -索尼A73+FE28/2+FE55/1.8 摄影</span>
+                            <span class="card-title">【橙猫涉影】女生宿舍毕业照，顺带聊聊大学</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-这期主要内容：索尼A73+FE28&#x2F;2+FE55&#x2F;1.8的宿舍毕业照实拍，顺带聊聊我的大学生涯
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal
+这期主要内容：索尼A73+FE28&#x2F;2+FE55&#x...
                             
                         </div>
                         <div class="publish-info">
@@ -921,18 +800,14 @@ yaca漫展的场外拍摄，为大家带来入门级机型佳能200D+适马17-50
                             
                             <img src="http://i0.hdslb.com/bfs/archive/b31560525104ba0b82ea3624d05d21cfa0f045c8.jpg" class="responsive-img" alt="【橙猫涉影】第一次使用闪光灯是什么水平？-索尼A7m3+FE28/2+神牛V860II+X1S 人像摄影实拍">
                             
-                            <span class="card-title">【橙猫涉影】第一次使用闪光灯是什么水平？-索尼A7m3+FE28/2+神牛V860II+X1S 人像摄影实拍</span>
+                            <span class="card-title">【橙猫涉影】第一次使用闪光灯是什么水平？</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 
-a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希望大家喜欢
-
-视频 
-
-拍摄地点var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20,mi
+a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希...
                             
                         </div>
                         <div class="publish-info">
@@ -969,6 +844,118 @@ a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希望大家喜欢
                         
                         <a href="/tags/%E7%A5%9E%E7%89%9BV860II/">
                             <span class="chip bg-color">神牛V860II</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/64274/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="http://i2.hdslb.com/bfs/archive/7691c7a745e42dd92d6c51f6ef699297e27a22cd.jpg" class="responsive-img" alt="【橙猫涉影】我是如何拍摄漫展视频的？ -索尼A73+FE28+FE55+魔爪aircross漫展人像视频实拍">
+                            
+                            <span class="card-title">【橙猫涉影】我是如何拍摄漫展视频的？ -</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+漫展正片：av25842033， A73+FE28&#x2F;2...
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-07-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%90%8E%E4%BC%9A%E6%97%A0%E6%9C%9F/" class="post-category">
+                                    第一季后会无期
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%AC%AC%E4%B8%80%E5%AD%A3/">
+                            <span class="chip bg-color">第一季</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%B4%A2%E5%B0%BCA73/">
+                            <span class="chip bg-color">索尼A73</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%94%A1%E5%8F%B8FE55/">
+                            <span class="chip bg-color">蔡司FE55</span>
+                        </a>
+                        
+                        <a href="/tags/FE28/">
+                            <span class="chip bg-color">FE28</span>
+                        </a>
+                        
+                        <a href="/tags/%E9%AD%94%E7%88%AAaircross/">
+                            <span class="chip bg-color">魔爪aircross</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/23054/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="http://i2.hdslb.com/bfs/archive/5c9199029f0c6cf326aa0015ff08a1d97d45a429.jpg" class="responsive-img" alt="【橙猫键摄】穷up教你如何在闲鱼上折腾二手摄影器材">
+                            
+                            <span class="card-title">【橙猫键摄】穷up教你如何在闲鱼上折腾二</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+【键摄】系列的第2期，分享使用咸鱼APP的经验，一步到位永远都是...
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-06-23
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%90%8E%E4%BC%9A%E6%97%A0%E6%9C%9F/" class="post-category">
+                                    第一季后会无期
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%AC%AC%E4%B8%80%E5%AD%A3/">
+                            <span class="chip bg-color">第一季</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%92%B8%E9%B1%BC/">
+                            <span class="chip bg-color">咸鱼</span>
                         </a>
                         
                     </div>
@@ -1013,9 +1000,9 @@ a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希望大家喜欢
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2018-2022</span>
             
-            <span id="year">2019</span>
+            <span id="year">2018</span>
             <a href="/about" target="_blank">橙猫涉影</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -1046,13 +1033,13 @@ a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希望大家喜欢
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/lcmbeyond" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:627950646@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1062,20 +1049,37 @@ a73+FE28&#x2F;2+神牛引闪+V860II的实拍，希望大家喜欢
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=627950646" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 627950646" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
 
 
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
+    <a href="https://weibo.com/6598965822" class="tooltipped" target="_blank" data-tooltip="微博" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
     </a>
 
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="微信公众号" data-position="top" data-delay="50">
+        <i class="fab fa-weixin"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="B站" data-position="top" data-delay="50">
+        <i class="fab fa-btc"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="抖音: 橙猫涉影" data-position="top" data-delay="50">
+        <i class="fas fa-music"></i>
+    </a>
 </div>
     </div>
 </footer>
@@ -1234,6 +1238,8 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     

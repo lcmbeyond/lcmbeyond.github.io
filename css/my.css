@@ -1,1 +1,14 @@
 /* Here is your custom css styles. */
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.card .card-title {
+    font-size: 18px;
+    font-weight: 300;
+}
