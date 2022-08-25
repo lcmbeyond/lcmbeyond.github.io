@@ -12,3 +12,19 @@
     font-size: 18px;
     font-weight: 300;
 }
+
+@-webkit-keyframes rainbow {
+
+}
+
+@keyframes rainbow {
+
+}
+
+.bg-cover:after {
+
+}
+
+.img-shadow {
+
+}
