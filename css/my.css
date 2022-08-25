@@ -47,8 +47,8 @@
 @media only screen and (max-width: 601px) {
     .bg-cover .title {
 	    font-size: 2rem;
-	    line-height: 0.8em;
-	    margin-bottom: 10px;
+	    /*line-height: 0.8em;*/
+	    /*margin-bottom: 10px;*/
 	    position: relative;
 	}
 }
@@ -58,7 +58,7 @@
     .bg-cover .title {
 	    font-size: 3rem;
 	    line-height: 1.2em;
-	    margin-bottom: 10px;
+	    /*margin-bottom: 10px;*/
 	    position: relative;
 	}
 }
@@ -68,7 +68,7 @@
 	.bg-cover .title {
 	    font-size: 4rem;
 	    line-height: 1.2em;
-	    margin-bottom: 10px;
+	    /*margin-bottom: 10px;*/
 	    position: relative;
 	}
 }
