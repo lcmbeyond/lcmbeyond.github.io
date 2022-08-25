@@ -28,3 +28,76 @@
 .img-shadow {
 
 }
+
+
+.cover-btns a {
+    margin: 10px 15px;
+    padding: 0 35px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    box-shadow: none;
+}
+
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 601px) {
+    .bg-cover .title {
+	    font-size: 2rem;
+	    line-height: 0.8em;
+	    margin-bottom: 10px;
+	    position: relative;
+	}
+}
+
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .bg-cover .title {
+	    font-size: 3rem;
+	    line-height: 1.2em;
+	    margin-bottom: 10px;
+	    position: relative;
+	}
+}
+
+/*大屏幕下(桌面类)的样式*/
+@media only screen and (min-width: 993px) {
+	.bg-cover .title {
+	    font-size: 4rem;
+	    line-height: 1.2em;
+	    margin-bottom: 10px;
+	    position: relative;
+	}
+}
+
+/*.bg-cover .title {
+    font-size: 2rem;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+}*/
+
+/*.carousel-post .title {
+    font-size: 1.8rem;
+}*/
+
+/*article .article-content .publish-author {
+    float: right;
+}
+
+.publish-date .icon-date {
+    padding-right: 5px;
+}
+
+.publish-author .icon-category {
+    padding-left: 10px;
+    color: transparent;
+}
+
+.article-content .publish-author .post-category {
+    padding-left: 5px;
+    color: transparent;
+}*/
