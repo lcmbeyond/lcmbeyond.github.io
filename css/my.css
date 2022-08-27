@@ -1,4 +1,23 @@
 /* Here is your custom css styles. */
+.prev-next .article-badge {
+     background-color: #ffffff50; 
+}
+
+.text-color {
+    color: #ededede0 !important;
+}
+
+.img-shadow {
+    box-shadow: none;
+}
+
+/*#artDetail .article-card-content {
+    padding: 0 15px 20px 18px;会导致文章异常
+}*/
+.card .card-content {
+     /*padding: 0px; */
+    /*border-radius: 0 0 2px 2px;*/
+}
 .card .card-image .card-title {
     color: #fff;
     position: absolute;
@@ -18,14 +37,6 @@
 }
 
 @keyframes rainbow {
-
-}
-
-.bg-cover:after {
-
-}
-
-.img-shadow {
 
 }
 
@@ -96,7 +107,7 @@
 .bg-cover:before,
 .bg-cover:after {
 
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
 
 }
     
@@ -112,6 +123,12 @@
     width: 100%;
     text-align: center;
 }
+
+/*.ImageGrid {width: 100%;max-width: 1040px;margin: 0 auto;text-align: center;}
+.card {width:160px;height:260px;overflow: hidden;}
+.ImageInCard {height:185px}
+.ImageInCard img {height:100%;width: auto;padding: 0 0 0 0; }
+.TextInCard {height:75;background-color: #fff;}*/
 /*.bg-cover .title {
     font-size: 2rem;
     line-height: 1.2em;
