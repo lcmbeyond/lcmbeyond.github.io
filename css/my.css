@@ -1,4 +1,9 @@
 /* Here is your custom css styles. */
+.about-container {
+    width: 100%;
+    max-width: 1225px;
+    margin-top: -60px;
+}
 .prev-next .article-badge {
      background-color: #ffffff50; 
 }

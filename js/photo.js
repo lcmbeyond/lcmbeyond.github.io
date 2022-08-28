@@ -5,16 +5,16 @@ var imgMaxNum = 50; //图片显示数量
 var windowWidth = window.innerWidth
 || document.documentElement.clientWidth
 || document.body.clientWidth;
-if (windowWidth < 768) {
-    var imageWidth = (windowWidth*84/100)/2; //图片显示宽度(手机端)
+if (windowWidth < 768) {// 间隙为 12px
+    var imageWidth = ((windowWidth-3*12)*100/100)/2; //图片显示宽度(手机端)
 } else {
     if(windowWidth > 1200){//主题限制
       windowWidth = 1200
-      var imageWidth = (windowWidth*86/100)/4;
+      var imageWidth = (windowWidth-5*12)/4;
     }else
-      var imageWidth = (windowWidth*84/100)/3; //图片显示宽度
+      var imageWidth = (windowWidth-4*12)/3; //图片显示宽度
 }
-
+var oneWidth = windowWidth -12;// 单图
 photo = {
     page: 1,
     offset: imgMaxNum,
